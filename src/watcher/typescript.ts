@@ -26,6 +26,7 @@ export class  TypescriptWatcher {
         })
         child.stdout.on("data",(message:Buffer)=>{
             const str = message.toLocaleString()
+            console.log(str)
             if (str.includes("Found 0 errors.")) {
                 this.initRunner(cnf)
             }          
