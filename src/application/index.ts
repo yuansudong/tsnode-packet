@@ -30,7 +30,7 @@ export class Application {
         return this
      }
      public run() {
-        console.log(this.flag)
+       console.log(this.flag)
        Runner(this.flag.env,this.cnf)
      }
 }
