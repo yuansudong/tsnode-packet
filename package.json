@@ -1,6 +1,6 @@
 {
   "name": "tsnode-packet",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "typescript+node开发打包工具",
   "url": "https://www.github.com/yuansudong/tsnode-packet",
   "main": "./cli/index.js",
