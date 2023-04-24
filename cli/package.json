@@ -1,9 +1,9 @@
 {
   "name": "tsnode-packet",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "typescript+node开发打包工具",
   "url": "https://www.github.com/yuansudong/tsnode-packet",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "ts-node ./src/index.ts --env=production"
   },
@@ -29,7 +29,11 @@
     "email": "1145919989@qq.com"
   },
   "bin": {
-    "tsnode-packet": "./dist/index.js"
+    "tsnode-packet": "./index.js"
   },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yuansudong/tsnode-packet.git"
+    },
   "homepage": "https://github.com/yuansudong/tsnode-packet"
 }
