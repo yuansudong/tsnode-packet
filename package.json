@@ -1,0 +1,39 @@
+{
+  "name": "tsnode-packet",
+  "version": "1.0.0",
+  "description": "typescript+node开发打包工具",
+  "url": "https://www.github.com/yuansudong/tsnode-packet",
+  "main": "./cli/index.js",
+  "scripts": {
+    "build": "ts-node ./src/index.ts --env=production"
+  },
+  "keywords": [
+    "ts",
+    "typescript"
+  ],
+  "author": "yuansudong",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "prettier": "^2.8.8",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/chokidar": "^2.1.3",
+    "iconv-lite": "^0.6.3"
+  },
+  "bugs": {
+    "url": "https://github.com/yuansudong/tsnode-packet/issues",
+    "email": "1145919989@qq.com"
+  },
+  "bin": {
+    "tsnode-packet": "./cli/index.js"
+  },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yuansudong/tsnode-packet.git"
+    },
+  "homepage": "https://github.com/yuansudong/tsnode-packet"
+}
